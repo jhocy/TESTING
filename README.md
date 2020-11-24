@@ -38,7 +38,7 @@ madre_de(carmen,vicky).
 madre_de(vicky,jhoy).
 madre_de(vicky,jess).
 madre_de(vicky,cristian).
-%REGLAS**************************
+%REGLAS****************************
 
 abuelo_de(X,Y):-padre_de(X,Z),((padre_de(Z,Y));(madre_de(Z,Y))).
 abuela_de(X,Y):-madre_de(X,Z),((padre_de(Z,Y));(madre_de(Z,Y))).
